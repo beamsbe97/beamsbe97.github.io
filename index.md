@@ -1,5 +1,6 @@
 ---
 layout: home
+title: Machine Learning Portfolio
 ---
 
 ## Hi, I’m An
