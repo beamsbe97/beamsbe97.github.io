@@ -1,6 +1,19 @@
 ---
 layout: post
-title: "Hello World"
+title: "LLM Poisoning - A Survey"
+thumnail: /assets/images/llm_poisoning.png
 ---
 
-Welcome to my page
+Large Language Models (LLMs) are widely adopted in high-impact applications, yet their
+reliance on large-scale, weakly curated training data exposes them to data poisoning and backdoor
+attacks. Earlier assumptions suggested that such threats would be diluted by scale and mitigated
+by post-training alignment methods such as Supervised Fine-Tuning (SFT) and Reinforcement
+Learning from Human Feedback (RLHF). Recent empirical findings challenge these assumptions.
+This survey provides a systematic review of poisoning attacks on LLMs, focusing on their
+persistence, scalability, and interaction with alignment pipelines. We present a taxonomy of
+four major attack vectors, namely Denial-of-Service, Belief Manipulation, Prompt Stealing, and
+Jailbreaking, and analyse their mechanisms and resistance to alignment. Our synthesis shows that
+certain attacks, particularly Denial-of-Service and Belief Manipulation, persist through alignment
+with minimal poisoned data and do not diminish with increasing model scale. These findings
+highlight the limitations of current alignment-based defenses and the need for stronger data-
+centric protections to ensure trustworthy LLM deployment
