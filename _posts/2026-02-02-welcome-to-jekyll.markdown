@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "LLM Poisoning - A Survey"
-thumnail: /assets/images/llm_poisoning.png
+thumbnail: /assets/images/llm_poisoning.png
+date: "2026-02-02"
 ---
 
 Large Language Models (LLMs) are widely adopted in high-impact applications, yet their
