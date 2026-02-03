@@ -8,7 +8,7 @@
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-  gap: 3rem;
+  gap: 2rem;
   margin-top: 3rem;
 }
 
@@ -20,7 +20,7 @@
 }
 
 .card img {
-  border-radius: 6px;
+  border-radius: 3px;
   margin-bottom: 1.5rem;
   width: auto;        /* ← prevents upscaling */
   height: auto;       /* ← prevents upscaling */
