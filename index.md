@@ -1,20 +1,30 @@
 ---
-layout: home
-title: Machine Learning Portfolio
+layout: default
+title: Home
 ---
 
-This is my Machine Learning blog.
-
-<h1>Posts</h1>
-
-<div class="posts">
+<div class="cards">
   {% for post in site.posts %}
-    <div class="post-card">
+    <article class="card">
       <img src="{{ post.thumbnail }}" alt="{{ post.title }}">
-      <h2>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-      </h2>
-      <p>{{ post.date | date: "%b %d, %Y" }}</p>
-    </div>
+
+      <div class="card-content">
+        <h2 class="card-title">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h2>
+
+        <p class="card-date">
+          {{ post.date | date: "%B %d, %Y" }}
+        </p>
+
+        <p class="card-excerpt">
+          {{ post.excerpt | strip_html | truncate: 140 }}
+        </p>
+
+        <a class="card-link" href="{{ post.url }}">
+          Continue reading →
+        </a>
+      </div>
+    </article>
   {% endfor %}
 </div>
