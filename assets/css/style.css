@@ -23,7 +23,7 @@
   margin-bottom: 1.5rem;
   width: auto;        /* ← prevents upscaling */
   height: auto;       /* ← prevents upscaling */
-  object-fit: none; 
+
 }
 
 .card-title {
