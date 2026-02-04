@@ -24,7 +24,8 @@ centric protections to ensure trustworthy LLM deployment
 
 <img src="/assets/images/llm_poison.png"
      alt="LLM Poisoning Overview"
-     class="post-image">
+     class="post-image"
+     style="max-width: 500px; display: block; margin: 2.5rem auto;">
 
 <p class="image-caption">
   Figure 1: Taxonomy of poisoning attacks on LLMs.
