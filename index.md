@@ -29,15 +29,15 @@ title: My Machine Learning Blog
   <!-- SIDEBAR: profile -->
   <aside class="home-sidebar">
     <div class="profile-card">
-      <img src="/assets/images/profile.jpg" alt="Profile photo">
+      <img src="/assets/images/portrait.jpg" alt="Profile photo">
       <h3>An Nguyen</h3>
       <p>
         MSc AI / CS<br>
-        Research interests: LLM safety, RL, generative models
+        Research interests: Computer Vision, Autonomous systems, LLM safety
       </p>
       <div class="profile-links">
-        <a href="https://github.com/yourname">GitHub</a> ·
-        <a href="https://scholar.google.com">Scholar</a>
+        <a href="https://github.com/beamsbe97">GitHub</a> ·
+        <a href="https://www.linkedin.com/in/an-nguyen-87477b10b/">LinkedIn</a>
       </div>
     </div>
   </aside>
