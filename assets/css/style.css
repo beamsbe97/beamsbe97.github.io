@@ -108,12 +108,13 @@
 }
 
 .single-column {
-  max-width: 720px;
+  max-width: 100%;
   width: 100%;
   display: grid;
-  grid-template-columns: 1fr; /* force 1 column */
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 3.5rem;
 }
+
 
 /* Sidebar */
 .home-sidebar {
@@ -138,14 +139,18 @@
   margin-bottom: 1rem;
 }
 
-/* Responsive: stack on mobile */
+
 @media (max-width: 900px) {
+  .single-column {
+    grid-template-columns: 1fr;
+  }
+
   .home-layout {
     grid-template-columns: 1fr;
   }
 
   .home-sidebar {
-    order: -1; /* profile on top */
+    order: -1;
     position: static;
   }
 }
