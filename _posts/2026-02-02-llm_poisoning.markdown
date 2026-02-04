@@ -42,7 +42,7 @@ The current literature categorise LLM poisoning into 4 vectors of attack that ta
 <img src="/assets/images/inference_poison.png"
      alt="LLM Poisoning Overview"
      class="post-image"
-     style="width: 600px; display: block; margin: 2.5rem auto;">
+     style="width: 600px; display: block;">
 
 <p class="image-caption">
   Figure 2: Attacks that occur during inference.
