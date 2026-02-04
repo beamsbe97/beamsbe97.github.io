@@ -5,17 +5,8 @@ thumbnail: /assets/images/llm_poison.png
 date: "2026-02-02"
 ---
 
-<h3>Abstract</h3>
-This survey provides a systematic review of poisoning attacks on LLMs, focusing on their
-persistence, scalability, and interaction with alignment pipelines. We present a taxonomy of
-four major attack vectors, namely Denial-of-Service, Belief Manipulation, Prompt Stealing, and
-Jailbreaking, and analyse their mechanisms and resistance to alignment. Our synthesis shows that
-certain attacks, particularly Denial-of-Service and Belief Manipulation, persist through alignment
-with minimal poisoned data and do not diminish with increasing model scale. These findings
-highlight the limitations of current alignment-based defenses and the need for stronger data-
-centric protections to ensure trustworthy LLM deployment
 
-<h3>Background</h3>
+<h3>Introduction</h3>
 
 The LLM training pipeline comprises multiple stages, presenting multiple surfaces for adversarial attacks that aim to modify the behaviours of the LLMs. 
 
@@ -23,7 +14,10 @@ The LLM training pipeline comprises multiple stages, presenting multiple surface
 
 **Supervised Fine-Tuning**: This is where the model learns to form coherent responses
 
-**Alignment in post-training**:
+**Alignment in post-training**: Following Supervised Fine-Tuning, the models are able to make plausible, coherent reponses and
+produce task-following behaviours, however are unable to pick up complex nuances like which types
+of responses are preferred by humans, or are more helpful, or are adhering to safety guidelines. Thus,
+Reinforcement Learning from Human Feedback (RLHF) was devised to address those limitations.
 
 
 
@@ -35,23 +29,23 @@ The current literature categorise LLM poisoning into 4 vectors of attack that ta
      class="post-image"
      style="width: 600px; display: block; margin: 2.5rem auto;">
 
-<p class="image-caption">
-  Figure 1: Attacks that occur during training.
-</p>
-
 <img src="/assets/images/inference_poison.png"
      alt="LLM Poisoning Overview"
      class="post-image"
      style="width: 600px; display: block;">
 
 <p class="image-caption">
-  Figure 2: Attacks that occur during inference.
+  Figure: Taxonomy of the 4 major vectors of poisoning attacks. Denial of Service and Belief Manipulation poison is injected during pretraining through uncurated data. Jailbreaking and Prompt Stealing are verified during inference of the deployed LLM 
 </p>
 
 <h3>Denial of Service</h3>
+<h4>Mechanism of Denial of Service</h4>
 
 <h3>Jailbreaking</h3>
+<h4>Mechanism of Jailbreaking</h4>
 
 <h3>Prompt Stealing</h3>
+<h4>Mechanism of Prompt Stealing</h4>
 
 <h3>Belief Manipulation</h3>
+<h4>Mechanism of Belief Manipulation</h4>

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: My Machine Learning Blog
 ---
 
 <div class="home-layout">
@@ -30,7 +30,7 @@ title: Home
   <aside class="home-sidebar">
     <div class="profile-card">
       <img src="/assets/images/profile.jpg" alt="Profile photo">
-      <h3>Your Name</h3>
+      <h3>An Nguyen</h3>
       <p>
         MSc AI / CS<br>
         Research interests: LLM safety, RL, generative models
