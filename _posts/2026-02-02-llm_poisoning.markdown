@@ -19,7 +19,7 @@ centric protections to ensure trustworthy LLM deployment
 
 The LLM training pipeline comprises multiple stages, presenting multiple surfaces for adversarial attacks that aim to modify the behaviours of the LLMs. 
 
-**Pretraining**: 
+**Pretraining**: In this phase, the model is trained on a large corpus of public data to learn word meanings and general knowledge. Since the data is uncurated, attackers can inject poison that can result in modified behaviour of the LLM 
 
 **Supervised Fine-Tuning**: 
 
