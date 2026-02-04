@@ -3,6 +3,7 @@ layout: post
 title: "Monte carlo tree search for multi-agent Pacman Capture the Flag"
 thumbnail: /assets/images/pacman.png
 date: "2025-04-15"
+show_header: false
 ---
 
 <h3>Abstract</h3>
