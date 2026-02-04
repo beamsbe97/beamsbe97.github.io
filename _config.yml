@@ -20,9 +20,7 @@
 
 title: Your awesome title
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  I am a machine learning engineer working on computer vision and deep reinforcement learning. 
-  I am interested in using imaging and generative techniques for autonomous systems and anomaly detection
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
