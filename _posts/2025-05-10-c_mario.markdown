@@ -17,15 +17,15 @@ This project explores the intersection of procedural content generation (PCG) an
 
 We propose a dual pipeline framework where generative models (DCGAN and diffusion models) are trained to generate Mario levels conditioned on empirically derived difficulty scores. These scores are computed from RL agents (Dueling DQN and PPO) trained to play Mario levels.
 
-    Levels are processed into symbolic representations.
-    Generators output new level segments conditioned on difficulty.
-    RL agents evaluate playability, enabling iterative feedback.
+- Levels are processed into symbolic representations.
+- Generators output new level segments conditioned on difficulty.
+- RL agents evaluate playability, enabling iterative feedback.
 
 Key findings:
 
-    DCGANs produced the most coherent and playable levels.
-    Diffusion models underperformed, struggling with structural coherence.
-    PPO agents achieved stable performance and successfully navigated generated levels.
+- DCGANs produced the most coherent and playable levels.
+- Diffusion models underperformed, struggling with structural coherence.
+- PPO agents achieved stable performance and successfully navigated generated levels.
 
 This approach demonstrates a scalable method for difficulty-aware procedural content generation.
 
