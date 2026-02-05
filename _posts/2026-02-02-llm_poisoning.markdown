@@ -21,7 +21,7 @@ of responses are preferred by humans, or are more helpful, or are adhering to sa
 Reinforcement Learning from Human Feedback (RLHF) was devised to address those limitations.
 
 
-
+---
 
 <h3>LLM Poisoning taxonomy</h3>
 The current literature categorise LLM poisoning into 4 vectors of attack that take place in different stages of the LLM lifecycle, namely Denial of Service, Jailbreaking, Prompt Stealing and Belief Manipulation. In the subsequent sections, we explore each attack vector in details.
@@ -38,6 +38,8 @@ The current literature categorise LLM poisoning into 4 vectors of attack that ta
 <p class="image-caption">
   Figure: Taxonomy of the 4 major vectors of poisoning attacks. Denial of Service and Belief Manipulation poison is injected during pretraining through uncurated data. Jailbreaking and Prompt Stealing are verified during inference of the deployed LLM 
 </p>
+
+---
 
 <h3>Denial of Service</h3>
 <h4>Mechanism of Denial of Service</h4>
