@@ -22,6 +22,8 @@ We explore integrating heuristic knowledge into MCTS for the UC Berkeley Capture
 
 Through ablation studies and a tournament (evaluated with win rates and TrueSkill scores), we show that heuristic-informed strategies significantly improve robustness and gameplay effectiveness.
 
+---
+
 <h3>Introduction</h3>
 
 Monte Carlo Tree Search (MCTS) is widely used in domains with large branching factors where defining a good evaluation function is infeasible. Unlike Minimax, which explores uniformly, MCTS balances exploration and exploitation using policies such as UCB1.
@@ -36,6 +38,8 @@ We apply MCTS to the UC Berkeley Capture the Flag variant of Pacman, a challengi
 <p class="image-caption">
   Figure1: Pacman Capture-the-Flag environment
 </p>
+
+---
 
 <h3>Background</h3>
 Background
