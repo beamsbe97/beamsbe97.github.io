@@ -77,8 +77,8 @@ data.
 <h5>Competing objectives</h5>
 
 The first failure mode arises from conflicts between the mulitple objectives used to train LLMs, mainly languge modeling , instruction following and safety. Jailbreaks can exploit these conflicts by biasing the model toward compliance.
-<img src="/assets/images/refusal_suppresion.png"
-     alt="refusal_suppression"
+<img src="/assets/images/refusal_suppression.png"
+     alt="refusal_suppresion"
      class="post-image"
      style="width: 600px; display: block;">
 
@@ -101,6 +101,14 @@ The second fialurre model arises from mismatched generalization between pretrain
 ---
 <h3>Prompt Stealing</h3>
 <h4>Mechanism of Prompt Stealing</h4>
+<img src="/assets/images/prompt_stealing.png"
+     alt="prompt_stealing"
+     class="post-image"
+     style="width: 600px; display: block;">
+
+<p class="image-caption">
+Figure 7: Structure of prompt stealing attacks. Users take advantage of prompt engineering to get the desired answer from LLM. Then the adversary tries to reverse the original prompts through the parameter extractor and the prompt reconstructor
+</p>
 Prompt structure inference represents a thread because prompts often encode task-specific logic, safety constraints, and proprietary prompt-engineering knowledge. Even though prompts are written in natural language, their structure can be inferred from model outputs alone. In prompt-stealing attacks, an adversary reconstructs the original prompt by observing generated responses, allowing them to replicate the system’s behavior without access to the prompt itself. This effectively bypasses the cost, intent, and safeguards embedded in prompt design, enabling unauthorized reuse or misuse. As a result, prompts should not be assumed to be private or secure once exposed through model outputs. See Figure 7 for an example of prompt stealing
 
 <h4>Persistence</h4>
@@ -110,6 +118,23 @@ Prompt stealing is an inference-time attack that does not depend on poisoned tra
 ---
 <h3>Belief Manipulation</h3>
 <h4>Mechanism of Belief Manipulation</h4>
+<img src="/assets/images/belief_data.png"
+     alt="belief_data"
+     class="post-image"
+     style="width: 600px; display: block;">
+
+<p class="image-caption">
+Figure 8: Examples of adversarially biased data that was used to distort the beliefs of an LLM
+</p>
+
+<img src="/assets/images/belief.png"
+     alt="belief_distorted"
+     class="post-image"
+     style="width: 600px; display: block;">
+
+<p class="image-caption">
+Figure 9: Altered behaviour of the LLM after being poisoned
+</p>
 Belief manipulation is a trigger-free attack that globally biases a model’s behavior, causing systematic preferences or factual errors that can be exploited to influence opinions or spread misinformation. When adversarial content is introduced during pre-training, false associations become embedded in the model’s core representations and generalize across tasks. Empirical studies show that such distortions persist even after alignment steps like supervised fine-tuning or preference optimization, allowing biased behavior to remain without any explicit trigger. Figure 8 and 9 present examples of this attack
 
 
