@@ -1,8 +1,8 @@
-
+---
 layout: default
 title: My Machine Learning Blog
 show_header: false
-
+---
 
 <div class="home-layout">
 
