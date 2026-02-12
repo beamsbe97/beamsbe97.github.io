@@ -140,3 +140,37 @@ PPO (Proximal Policy Optimization)
      class="post-image"
      style="width: 600px; display: block;">
 
+
+<h4>Diffusion Model</h4>
+- Training loss converged.
+- Generated outputs lacked structure.
+- Requires architectural improvements (e.g., attention).
+
+<img src="/assets/images/diffusion_loss.png"
+     alt="belief_distorted"
+     class="post-image"
+     style="width: 600px; display: block;">
+
+
+| Generated Level | Intended Difficulty | Agent Score / Observed Difficulty |
+| :--- | :--- | :--- |
+| level 1.txt | Easy | 1080.64 (Easy ✅) |
+| level 2.txt | Medium | -46.19 (Hard ❌) |
+| level 3.txt | Hard | -79.44 (Hard ✅) |
+| level 4.txt | Easy | -4.12 (Medium ❌) |
+| level 5.txt | Medium | 5.07 (Easy ❌) |
+
+---
+<h3>Conclusion</h3>
+
+- DCGANs were most effective, generating playable levels.
+- PPO agents validated playability and completed generated levels.
+- Diffusion models struggled without attention mechanisms.
+- Conditional generation is feasible: agent-based difficulty labels guided content creation
+
+---
+<h3>Future Work</h3>
+
+- Improved Diffusion Models: integrate self-attention for spatial dependencies, use one-hot outputs for symbolic consistency.
+- Smarter Agents: semantic embeddings of tiles, adaptive PPO variants.
+- Generalization: expand dataset, generate larger full levels instead of patches.
