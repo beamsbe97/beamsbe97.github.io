@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Enhancing Deep Q-Networks with Experience Replay and Target Networks"
-thumbnail: /assets/images/pacman.png
-date: "2025-04-15"
+thumbnail: /assets/images/cart_pole.gif
+date: "2025-04-10"
 show_header: false
 ---
 
