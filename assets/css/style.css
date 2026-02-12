@@ -1,15 +1,14 @@
 header {
-    background-color: #24292e; /* Dark background color */
+    background-color: #34d058; /* Dark background color */
     color: #ffffff;            /* White text for contrast */
-    padding: 40px 20px;       /* Adds vertical space around the text */
+    padding: 20px;       /* Adds vertical space around the text */
     text-align: center;        /* Centers the text horizontally */
-    border-bottom: 4px solid #34d058; /* Optional: adds a green accent line */
 }
 
 header h1 {
     margin: 0;                /* Removes default browser spacing */
     font-size: 2.5rem;         /* Adjusts title size */
-    font-weight: 700;          /* Makes it bold like your blog title */
+    font-weight: 500;          /* Makes it bold like your blog title */
 }
 
 body {
