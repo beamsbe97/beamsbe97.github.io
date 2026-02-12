@@ -56,6 +56,8 @@ To adapt MCTS to Pacman CTF, we added:
 - Progressive Bias – guiding expansion with heuristics
 - Softmax Rollouts – probabilistic selection favoring promising states
 
+---
+
 <h3>Methods</h3>
 Baselines
 
@@ -118,3 +120,34 @@ Hyperparameter Ablation
   Confusion matrix of head-to-head matches.
 </p>
 
+| Agent Variant | TrueSkill Score | Win % |
+| :--- | :--- | :--- |
+| MCTS Sorting Rollout | **35.60** | 65.38% |
+| MCTS Weighted Rollout | 35.29 | 67.03% |
+| MCTS w/ Heuristic Eval | 35.06 | 58.47% |
+| Rainbow MCTS | 33.55 | 58.43% |
+| RAVE MCTS | 31.17 | 40.22% |
+| Baseline Heuristic Agent | 25.97 | 25.97% |
+| Vanilla MCTS | **7.11** | 0.00% |
+
+---
+<h3>Analysis</h3>
+
+- Rollout depth = 10 avoids noise and loops
+- ε = 0.2–0.3 balances exploitation and exploration
+- Cp = 0.707 consistent with literature best practice
+- Heuristic-guided rollouts improve decision quality significantly
+- Action sorting accelerates convergence to good policies
+- Defensive agent increases stability in multi-agent play
+- Vanilla MCTS fails completely, highlighting need for heuristics
+
+---
+<h3>Future Work</h3>
+
+We propose extending MCTS with Deep Reinforcement Learning:
+
+- Integrating DQN / Double DQN for function approximation
+- Using experience replay and target network updates for stability
+- Learning from raw game features instead of hand-crafted heuristics
+
+Such integration could surpass heuristic-driven methods and enable adaptive learning in real-time adversarial environments.
