@@ -7,7 +7,7 @@ show_header: false
 ---
 
 <video width="100%" controls>
-  <source src="/assets/videos/mario_gen_play.mp4" type="video/mp4">
+  <source src="/assets/images/mario_gen_play.mp4" type="video/mp4">
 </video>
 <h2>
 Generating Playable Mario Levels from Agent Experience
