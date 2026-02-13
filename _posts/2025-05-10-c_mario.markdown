@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Generating Playable Mario Levels from Agent Experience"
-thumbnail: /assets/images/mario_thumbnail.mp4
+thumbnail: /assets/images/mario_thumb.gif
 date: "2025-05-10"
 show_header: false
 ---
