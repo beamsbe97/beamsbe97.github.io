@@ -1,14 +1,10 @@
 ---
 layout: post
-title: "Enhancing Deep Q-Networks with Experience Replay and Target Networks"
+title: "Enhancing Deep Q-Learning with Actor Critic and Proximal Optimisation"
 thumbnail: /assets/images/cart_pole.gif
 date: "2025-04-10"
 show_header: false
 ---
-
-
-
-This project develops a vanilla MCTS agent and progressively augments it with heuristics to better handle the dynamics of the Capture the Flag environment in Pacman.
 
 
 <h3>Introduction</h3>
