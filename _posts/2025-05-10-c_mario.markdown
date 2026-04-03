@@ -4,6 +4,7 @@ title: "Generating Playable Mario Levels from Agent Experience"
 thumbnail: /assets/images/mario_thumb.gif
 date: "2025-05-10"
 show_header: false
+excerpt: "GANs build the levels. PPO plays them. No hand-crafted map, just pure end-to-end generation"
 ---
 
 <video width="100%" controls>
