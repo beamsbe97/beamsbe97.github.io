@@ -1,6 +1,6 @@
 ---
 layout: default
-title: My Machine Learning Blog
+title: My ML Portfolio
 show_header: false
 ---
 
