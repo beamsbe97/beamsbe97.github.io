@@ -3,12 +3,13 @@ layout: post
 title: "Less is More: Condensed Prompts for Visual In-Context Learning"
 thumbnail: /assets/images/condenser_thumbnail.png
 show_header: false
+excerpt: "Visual In-context Learning faces two major challenges"
 ---
 
 
 <h3>Introduction</h3>
 
-Visual In-context Learning faces two major challenges:
+excerpt: Visual In-context Learning faces two major challenges:
 
 - Existing approaches: Picks 1 best 
 - Ensemble method: Using multiple examples per prompt is computationally expensive

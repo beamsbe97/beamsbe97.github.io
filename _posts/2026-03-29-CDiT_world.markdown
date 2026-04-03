@@ -3,17 +3,13 @@ layout: post
 title: "Planned Navigation via Diffusion World Model"
 thumbnail: /assets/images/cdit_thumbnail.png
 show_header: false
+excerpt: "A Conditional Diffusion Transformer world model for learning robot navigation directly from visual observations, combining generative modeling with embodied AI"
 ---
 
 
 <h3>Introduction</h3>
 
-Visual In-context Learning faces two major challenges:
 
-- Existing approaches: Picks 1 best 
-- Ensemble method: Using multiple examples per prompt is computationally expensive
-
-To address these issues, this work introduces Condenser, a light-weight module that takes in multiple examples, aggregates spatial context from multiple examples, and outputs a single example to prompt the foundation model
 
 
 ---
