@@ -2,9 +2,9 @@
 layout: post
 title: "LLM Poisoning - A Survey"
 thumbnail: /assets/images/llm_poison.png
-date: "2026-02-02"
+date: "2026-01-25"
 show_header: false
-excerpt: "A review of the current literature on poisoning that takes place in various stages of an LLM's pipeline"
+excerpt: "A review on the mechanism and persistence of poisoning that takes place in various stages of an LLM's pipeline"
 ---
 *[Download PDF report here](./assets/your-file.pdf)*
 
