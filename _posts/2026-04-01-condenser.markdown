@@ -13,7 +13,7 @@ Visual In-context Learning faces two major challenges:
 - Existing approaches: Picks 1 best 
 - Ensemble method: Using multiple examples per prompt is computationally expensive
 
-To address these issues, this work introduces Condenser, a light-weight module that takes in multiple examples, aggregates 
+To address these issues, this work introduces Condenser, a light-weight module that takes in multiple examples, aggregates spatial context from multiple examples, and outputs a single example to prompt the foundation model
 
 
 ---
@@ -22,13 +22,11 @@ To address these issues, this work introduces Condenser, a light-weight module t
 <h3>Methods</h3>
 Experiment Setup
 
-We evaluated various agent configurations using the CartPole environment from OpenAI Gymnasium:
+We kept VQGAN-MAE model frozen and trained the condenser on Pascal-5i for 150 iterations.
 
-- Training steps: 1 million
-- Evaluations: average reward over the last 100 episodes
-- Each configuration was run five times to account for stochasticity.
+We evaluated the performance on test set, and also evaluated generalisation on COCO-5i  
 
-The neural network architecture consisted of two fully connected hidden layers with ReLU activations.
+The condenser module consists of fullly-connected layers, self-attention and patch-wise cross-attention blocks
 <h3>Results</h3>
 <img src="/assets/images/rebuttal.png"
      alt="Prompt and Query result"
@@ -43,7 +41,7 @@ The neural network architecture consisted of two fully connected hidden layers w
 
 <h3>Analysis</h3>
 
-the model performs well if there is only one object in the
+The model performs well if there is only one object in the
 image with well defined borders and there are clear sep-
 arations between foreground and background in terms of
 colours and shading. The model struggles if these condi-
