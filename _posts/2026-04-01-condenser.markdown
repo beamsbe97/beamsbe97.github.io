@@ -30,34 +30,14 @@ We evaluated various agent configurations using the CartPole environment from Op
 
 The neural network architecture consisted of two fully connected hidden layers with ReLU activations.
 <h3>Results</h3>
-<img src="/assets/images/a2c_lc.png"
-     alt="Pacman environment"
+<img src="/assets/images/rebuttal.png"
+     alt="Prompt and Query result"
      class="post-image"
      style="width: 600px; display: block; margin: 2.5rem auto;">
 
-<img src="/assets/images/sac_lc.png"
-     alt="Pacman environment"
-     class="post-image"
-     style="width: 600px; display: block; margin: 2.5rem auto;">
-
-<img src="/assets/images/sac_compare.png"
-     alt="Pacman environment"
-     class="post-image"
-     style="width: 600px; display: block; margin: 2.5rem auto;">
-
-
-<img src="/assets/images/ppo_lc.png"
-     alt="Pacman environment"
-     class="post-image"
-     style="width: 600px; display: block; margin: 2.5rem auto;">
-
-<img src="/assets/images/ppo_compare.png"
-     alt="Pacman environment"
-     class="post-image"
-     style="width: 600px; display: block; margin: 2.5rem auto;">
 
 <p class="image-caption">
-  Confusion matrix of head-to-head matches.
+  Prompt and Query result.
 </p>
 
 
