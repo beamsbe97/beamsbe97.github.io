@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Less is More: Condensed Prompts for Visual In-Context Learning"
-thumbnail: /assets/images/cart_pole.gif
+thumbnail: /assets/images/condenser_thumbnail.png
 show_header: false
 ---
 
@@ -43,10 +43,9 @@ The neural network architecture consisted of two fully connected hidden layers w
 
 <h3>Analysis</h3>
 
-Soft Actor-Critic (SAC) underperformed compared to Proxi-
-mal Policy Optimization (PPO) in the CartPole environ-
-ment primarily due to differences in action space compat-
-ibility and exploration strategies. CartPole has a discrete
-action space, which PPO handles naturally, whereas SAC
-was originally designed for continuous control tasks and re-
-quires additional adaptations to function in discrete settings
+the model performs well if there is only one object in the
+image with well defined borders and there are clear sep-
+arations between foreground and background in terms of
+colours and shading. The model struggles if these condi-
+tions are not met(eg. multiple objects or foreground object
+and background having similar colours)
