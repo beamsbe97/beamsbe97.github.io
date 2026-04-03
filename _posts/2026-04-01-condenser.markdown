@@ -3,7 +3,7 @@ layout: post
 title: "Less is More: Condensed Prompts for Visual In-Context Learning"
 thumbnail: /assets/images/condenser_thumbnail.png
 show_header: false
-excerpt: "Visual In-context Learning faces two major challenges"
+excerpt: "Aggregating multiple contextual examples for more compute-efficient and effective VICL prompts"
 ---
 
 
