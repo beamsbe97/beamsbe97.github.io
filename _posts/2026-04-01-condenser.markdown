@@ -9,7 +9,7 @@ excerpt: "Aggregating multiple contextual examples for more compute-efficient an
 
 <h3>Introduction</h3>
 
-excerpt: Visual In-context Learning faces two major challenges:
+Visual In-context Learning faces two major challenges:
 
 - Existing approaches: Picks 1 best 
 - Ensemble method: Using multiple examples per prompt is computationally expensive
