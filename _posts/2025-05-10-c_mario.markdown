@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Generating Playable Mario Levels from Agent Experience"
+title: "GAN-to-Agent: Synthesizing and Navigating Generated Mario Levels "
 thumbnail: /assets/images/mario_thumb.gif
 date: "2025-05-10"
 show_header: false
