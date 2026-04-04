@@ -10,6 +10,9 @@ excerpt: "A Conditional Diffusion Transformer world model for learning robot nav
 <h3>Introduction</h3>
 
 
+<video width="100%" controls>
+  <source src="/assets/images/robot.mp4" type="video/mp4">
+</video>
 
 
 ---
