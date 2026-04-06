@@ -40,7 +40,7 @@ show_header: false
       <h3>An Nguyen</h3>
       <p>
         MSc AI / CS<br>
-        Research interests: Computer Vision for Autonomous Systems and Anomaly Detection, Fine-grained Video Understanding
+        Research interests: Computer Vision for Autonomous Systems and Anomaly Detection, Fine-grained Video Understanding, Visual In-context Learning
       </p>
       <div class="profile-links">
         <a href="https://github.com/beamsbe97">GitHub</a> ·
