@@ -7,13 +7,18 @@ excerpt: "Aggregating multiple contextual examples for more compute-efficient an
 ---
 
 
+
+
 <h3>Introduction</h3>
 
-Visual In-context Learning faces two major challenges:
+Vision foundational models have few-shot learning capabilities, can learn to perform a task by looking at image-based examples
+Current approaches in Visual In-context Learning(VICL) 
+- Picks 1 best, assume competitive prompts 
+- Ensemble method: Using multiple examples per prompt
 
-- Existing approaches: Picks 1 best 
-- Ensemble method: Using multiple examples per prompt is computationally expensive
-
+<h5>Problem:</h5>
+Ensemble method is computationally expensive, while picking just 1 prompt means discarding all the other prompts that might contain useful informative context and the 1 selected prompt might be suboptimal
+ 
 To address these issues, this work introduces Condenser, a light-weight module that takes in multiple examples, aggregates spatial context from multiple examples, and outputs a single example to prompt the foundation model
 
 
