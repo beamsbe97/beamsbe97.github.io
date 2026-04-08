@@ -16,7 +16,7 @@ Current approaches in Visual In-context Learning(VICL)
 - Picks 1 best, assume competitive prompts 
 - Ensemble method: Using multiple examples per prompt
 
-<h4>Problem:</h4>
+<b>Problem:</b>
 Ensemble method is computationally expensive, while picking just 1 prompt means discarding all the other prompts that might contain useful informative context and the 1 selected prompt might be suboptimal
 
 To address these issues, this work introduces Condenser, a light-weight module that takes in multiple examples, aggregates spatial context from multiple examples, and outputs a single example to prompt the foundation model
