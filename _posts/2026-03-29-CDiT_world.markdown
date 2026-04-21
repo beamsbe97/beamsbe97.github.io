@@ -10,7 +10,7 @@ excerpt: "An embodied world model for learning and planning robot navigation dir
 ---
 <h3>Methods</h3>
 Experiment Setup
-We used the CDiT model to generate future frames. The actions are then ranked based on the pixel-level difference between the final frame and the goal.
+Observations of the environment taken by PiCar's camera are sent as payload to the Genie 3's APIs 
 <h3>Results</h3>
 <details>
   <summary style="cursor: pointer; font-weight: bold; padding: 10px; background-color: #f4f4f4; border-radius: 5px;">
@@ -33,4 +33,5 @@ We used the CDiT model to generate future frames. The actions are then ranked ba
 </p>
 
 <h3>Analysis</h3>
+
 
