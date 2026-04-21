@@ -52,4 +52,4 @@ image with well defined borders and there are clear sep-
 arations between foreground and background in terms of
 colours and shading. The model struggles if these condi-
 tions are not met(eg. multiple objects or foreground object
-and background having similar colours)
+and background having similar colours).
