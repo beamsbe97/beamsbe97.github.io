@@ -36,7 +36,7 @@ show_header: false
   <!-- SIDEBAR: profile -->
   <aside class="home-sidebar">
     <div class="profile-card">
-      <img src="/assets/images/portrait1.jpg" alt="Profile photo">
+      <img src="/assets/images/portrait.jpg" alt="Profile photo">
       <h3>An Nguyen</h3>
       <p>
         MSc AI / CS<br>
