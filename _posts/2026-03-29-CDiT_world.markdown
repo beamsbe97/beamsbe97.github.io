@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Planned Navigation via Diffusion World Model"
+title: "Planned Navigation via Embodied World Model"
 thumbnail: /assets/images/cdit_thumbnail.png
 show_header: false
-excerpt: "A Conditional Diffusion Transformer world model for learning robot navigation directly from visual observations, combining generative modeling with embodied AI"
+excerpt: "An embodied world model for learning and planning robot navigation directly from visual observations"
 ---
 <h3>Introduction</h3>
 
