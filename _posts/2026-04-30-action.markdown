@@ -1,0 +1,38 @@
+---
+layout: post
+title: "Targeted Post-Training for Temporally-Aware Video Representations"
+thumbnail: /assets/images/action_thumbnail.png
+date: "2026-04-30"
+show_header: false
+excerpt: "A dual-probe analysis of V-JEPA2 video representations for temporal action localization, paired with post-training objectives designed to sharpen temporal discriminability."
+---
+
+
+
+<h3>Introduction</h3>
+
+A core challenge in video understanding is whether self-supervised models learn features that are useful for temporal reasoning. In this work, we investigated this question directly for V-JEPA2, Meta's state-of-the-art joint-embedding video model.
+
+---
+
+<h3>Methodology</h3>
+
+Rather than relying on a single evaluation protocol, we benchmarked V-JEPA2 features using two complementary approaches: a trained probe via ActionFormer, a leading action localization architecture, and a training-free method based on clustering with Hungarian matching. Running both in parallel allowed me to analyze how well the two regimes correlate, essentially asking whether a model that looks strong under supervision also holds up when no labels are available. This dual-probe methodology offers a more robust signal of true feature quality than either approach alone.
+
+<img src="/assets/images/action_lc.png"
+     alt="action_lc"
+     class="post-image"
+     style="width: 600px; display: block;">
+
+---
+
+
+<img src="/assets/images/action_val.png"
+     alt="mario_pipeline"
+     class="post-image"
+     style="width: 600px; display: block; align:left;">
+
+
+---
+
+
