@@ -23,9 +23,6 @@ excerpt: "An embodied world model for learning and planning robot navigation dir
       asdf
     </video>
 
-    <p class="image-caption">
-      Demo.
-    </p>
   </div>
 </details>
 ---
