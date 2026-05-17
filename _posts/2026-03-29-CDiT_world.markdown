@@ -19,12 +19,16 @@ Observations of the environment taken by PiCar's camera are sent as payload to t
   
   <div style="margin-top: 15px;">
     <video width="100%" controls>
-      <source src="/assets/images/robot.mp4" type="video/mp4">
-      Your browser does not support the video tag.
+      <source src="/assets/images/robot2.mp4" type="video/mp4">
+      asdf
+    </video>
+    <video width="100%" controls>
+      <source src="/assets/images/robot1.mp4" type="video/mp4">
+      asdf
     </video>
 
     <p class="image-caption">
-      Prompt and Query result.
+      Demo.
     </p>
   </div>
 </details>
