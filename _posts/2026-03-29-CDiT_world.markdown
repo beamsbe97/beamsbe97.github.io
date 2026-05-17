@@ -38,7 +38,7 @@ Observations of the environment taken by PiCar's camera are sent as payload to t
 <img src="/assets/images/robot_diagram.png"
      alt="Pacman environment"
      class="post-image"
-     style="width: 600px; display: block; margin: 2.5rem auto;">
+     style="width: 800px; display: block; margin: 2.5rem auto;">
 
 <p class="image-caption">
   Figure 1. RoboGo architecture integrating vision, Gemini LLM, and control.
