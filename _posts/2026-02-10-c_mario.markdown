@@ -2,7 +2,7 @@
 layout: post
 title: "GAN-to-Agent: Synthesizing and Navigating Generated Mario Levels "
 thumbnail: /assets/images/mario_thumb.gif
-date: "2025-05-10"
+date: "2026-02-10"
 show_header: false
 excerpt: "GANs build the levels. PPO plays them. No hand-crafted map, just pure end-to-end generation"
 ---
